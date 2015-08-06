@@ -1,0 +1,22 @@
+li{
+  width:100px;
+  height:20px;
+  background:grey;
+  list-style: none;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+li:hover{
+  transform-origin : 50% 50%;
+  perspective: 1000px;
+  -webkit-perspective:1000px;
+  animation: test 1s linear;
+  cursor: pointer;
+}
+   
+@keyframes test{
+  0% {transform:rotateX(180deg);}
+}

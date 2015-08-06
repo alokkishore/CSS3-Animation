@@ -1,0 +1,17 @@
+#door{
+  width:100px;
+  height:200px;
+  background:red;
+  margin:auto;
+  margin-top:40px;
+  transform-origin : 0% 0%;
+  perspective: 1000px;
+  -webkit-perspective:1000px;
+  animation: test 1s linear infinite;
+}
+
+@keyframes test{
+  0% {transform:rotateY(90deg);}
+  
+} 
+

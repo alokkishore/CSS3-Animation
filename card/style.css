@@ -1,0 +1,26 @@
+.card{
+  width:200px;
+  height:150px;
+  background:red;
+  margin-right:50px;
+  margin-left:50px;
+  float:left;
+  margin-top:40px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+
+.card:hover{
+  transform-origin : 50% 50%;
+  perspective: 1000px;
+  -webkit-perspective:1000px;
+  animation: test 1s linear;
+}
+
+
+@keyframes test{
+  0% {transform:rotateY(180deg);}
+  
+} 
+
